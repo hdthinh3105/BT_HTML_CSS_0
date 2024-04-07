@@ -1,0 +1,108 @@
+/* Reset CSS */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+
+}
+.name{
+  padding-left: 10px;
+  font-size: 14px;
+}
+/* Phần Header */
+header {
+  margin-top: 5px;
+  margin-bottom:5px;
+  background-color: whitesmoke;
+  color: black;
+  display: flex;
+  text-align: center;
+  padding: 20px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+}
+.header-list{
+  margin-left: 20px;
+}
+.header-list li button[type="submit"] {
+  margin-left: 80px;
+  width: 100px;
+}
+
+.logo-container{
+  width: 400px; /* Đặt chiều rộng thành 100px */
+  height: 60px; /* Đặt chiều cao thành 100px */
+  background-color: grey;
+}
+
+/* Xóa dấu chấm của các phần tử li */
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  width: auto;
+}
+
+/* Phần Navigation */
+nav {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom:5px;
+  background-color: #666;
+  color: #fff;
+  padding: 5px 0;
+}
+
+nav ul {
+  list-style-type: none; /* Loại bỏ dấu chấm */
+  display: flex; /* Sử dụng flexbox để căn chỉnh các mục */
+  /* Căn các mục theo chiều ngang */
+  padding: 0; /* Loại bỏ padding mặc định */
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Phần Content */
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: auto;
+  height: 300px;
+  background: pink;
+}
+
+/* Phần Footer */
+footer {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom:5px;
+  text-align: center;
+  clear: both;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+form {
+  border: 1px solid black;
+  width: 40%;
+  background-color: whitesmoke;
+  margin-top: 5px;
+  margin-bottom:5px;
+  margin:auto ; /* Đưa form ra giữa màn hình */
+}
+
+
