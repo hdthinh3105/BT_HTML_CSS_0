@@ -1,0 +1,33 @@
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+@keyframes move {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(50%); }
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+.blink {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.blink {
+  animation: blink 2s infinite;
+}
+
+.animate-move {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.animate-move {
+  animation: move 6s infinite alternate;
+}

@@ -1,0 +1,12 @@
+<div class="container">
+  <h2>Thêm sản phẩm</h2>
+  <form (submit)="addProduct()">
+    <input type="text" [(ngModel)]="newProduct" name="newProduct" placeholder="Enter product name">
+    <button type="submit">Add</button>
+  </form>
+  <br>
+  <h2>Danh sách Sản Phẩm</h2>
+  <ul>
+    <li *ngFor="let product of products">{{ product }}</li>
+  </ul>
+</div>

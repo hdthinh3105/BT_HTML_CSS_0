@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul { list-style: none; }
+
+img { border: none; vertical-align: top; }
+
+div#layout {
+  border: 1px solid #a3a2a3;
+  margin: 20px auto;
+  width: 900px;
+}
+
+div#header {
+  padding: 10px;
+}
+
+div.hLeft {
+  float: left;
+}
+
+div.hLeft h1 {
+  margin-bottom: 20px;
+}
+
+div.hRight {
+  float: right;
+}
+
+div.hRight .btn-right {
+  margin-bottom: 37px;
+  padding: 10px;
+  display: flex;
+  text-align: right;
+}
+div.hRight .btn-right li {
+  margin-left: 5px;
+}
+
+
+div.hRight .link-right {
+  display: flex;
+  border-right: solid 1px #333;
+  padding: 0 5px;
+}
+
+div.hRight .link-right {
+  border-right: none;
+  padding-right: 0;
+}
+
+div.hRight .link-right li {
+  margin-left: 10px;
+  color: blue;
+  text-decoration: underline;
+}
+
+div#gNav {
+ clear: both;
+}
+
+div#gNav ul {
+  /*background: url(../images/bg_gnav.gif) repeat-x;*/
+  background-color: #666666;
+  border: 1px solid #000;
+  height: 50px;
+  padding: 12px 0;
+}
+
+div#gNav ul li {
+  border-right: solid 1px #fff;
+  display: inline;
+  padding: 0 10px;
+}
+
+div#gNav ul li.last {
+  border-right: none;
+  padding-right: 0;
+}
+
+div#gNav ul li a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+div#gNav ul li a:hover {
+  color: yellow;
+}
+
+div#pageBody {
+  padding: 20px 10px;
+}
+
+div#content {
+  float: left;
+  width: 620px;
+}
+
+div#content h2 {
+  border-bottom: 1px solid #666666;
+  font-size: 120%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+div#content div.newProduct {
+  margin-bottom: 20px;
+}
+
+div#content div.newProduct p.image {
+  float: left;
+  width: 241px;
+}
+
+div#content div.newProduct div {
+  float: right;
+  width: 360px;
+}
+div#content div.newProduct div h3 {
+  color: #5870e6;
+  margin-top: -150px;
+}
+div#content div.newProduct h3 {
+  color: #5870e6;
+  margin-bottom: 0px;
+}
+
+div#content ul {
+  justify-content: center;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 10px 10px;
+  display: flex;
+}
+
+div#content ul li {
+ margin-left: 20px;
+}
+
+
+div#content dl.news {
+  padding: 10px 0 40px 10px;
+}
+
+div#content dl.news dd {
+  border-bottom: 1px dotted #000;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+div#content dl.news dd.last {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+div#content dl.news dd a {
+  text-decoration: none;
+}
+
+div#content dl.news dd a:hover {
+  text-decoration: underline;
+}
+
+div#content p.banner {
+  text-align: center;
+}
+
+
+div#sidebar {
+  float: right;
+  width: 240px;
+}
+
+div#sidebar h2 {
+  border-bottom: 1px solid #666666;
+  font-size: 120%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+div#sidebar ul li {
+  margin-top: 5px;
+  color: blue;
+  text-decoration: underline  ;
+}
+
+div#footer {
+  border-top: 1px solid #a3a2a3;
+  padding: 10px;
+  clear: both;
+}
+
+div#footer div.fLeft {
+  float: left;
+  width: 340px;
+}
+
+div#footer div.fRight {
+  float: right;
+  width: 530px;
+}
+
+div#footer div.fRight ul {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+div#footer div.fRight ul li {
+  display: inline;
+  border-right: solid 1px #333;
+  padding: 0 5px;
+}
+
+div#footer div.fRight ul li.last {
+  border-right: none;
+  padding-right: 0;
+}
+
+div#footer div.fRight p {
+  text-align: right;
+}
+
+div#pageBody,
+div#content div.newProduct,
+div#footer {
+  zoom: 1;
+}
+
+div#pageBody:after,
+div#content div.newProduct:after,
+div#footer:after {
+  clear: both;
+  content: ".";
+  display: block;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}

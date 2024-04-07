@@ -3,15 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Bt1Component } from './bt-1/bt-1.component';
+import {FormsModule} from "@angular/forms";
+import { Vd1Component } from './vd-1/vd-1.component';
+import { Bt3Component } from './bt-3/bt-3.component';
+import { BtClass1Component } from './bt-class-1/bt-class-1.component';
+import { BtClass2Component } from './bt-class-2/bt-class-2.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Bt1Component,
+    Vd1Component,
+    Bt3Component,
+    BtClass1Component,
+    BtClass2Component
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
