@@ -37,7 +37,7 @@
 .b-input label,
 .kq-input label{
   width: 150px;
-  text-align: right;
+  text-align: left;
   margin-right: 10px;
 }
 
@@ -52,32 +52,22 @@
   box-sizing: border-box;
 }
 
-.remember-me {
+.button-container {
   display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-  text-align: right;
 }
 
-.remember-me input[type="checkbox"] {
-  margin-left: 160px; /* Thay đổi margin-left thành giá trị mong muốn */
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.remember-me label {
-  margin-left: 10px;
-}
-
-.submit button {
-  margin-left: 160px;
+.button-container button {
+  margin: 0 15px;
+  width: 40px;
   background-color: darkgrey;
-  width: 100px;
   padding: 5px;
   border-radius: 5px;
-
 }
+
+.button-container button:hover {
+  background-color: #4583a0;
+  color: white;
+}
+
 
 

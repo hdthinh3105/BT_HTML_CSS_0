@@ -5,22 +5,29 @@
     <h2>TÍNH TOÁN SỐ HỌC</h2>
     <div class="a-input">
       <label for="A">nhập số A:</label>
-      <input type="text" id="A" name="A">
+      <input type="text" id="A" name="A" #aInput="ngModel" [(ngModel)]="a">
     </div>
     <div class="b-input">
       <label for="B">nhập số B:</label>
-      <input type="text" id="B" name="B">
+      <input type="text" id="B" name="B" #bInput="ngModel" [(ngModel)]="b">
     </div>
     <div class="kq-input">
       <label for="kq">Kết quả:</label>
-      <input type="text" id="kq" name="kq">
+      <input type="text" id="kq" name="kq" [(ngModel)]="result">
     </div>
-    <div class="remember-me">
-      <input type="checkbox" id="remember" name="remember">
-      <label for="remember">Ghi nhớ mật khẩu</label>
-    </div>
-    <div class="submit">
-      <button type="submit">Đăng nhập</button>
+    <div class="button-container">
+      <div class="sum">
+        <button type="submit" (click)="sum(aInput.value, bInput.value)">+</button>
+      </div>
+      <div class="sub">
+        <button type="submit" (click)="subtract(aInput.value, bInput.value)">-</button>
+      </div>
+      <div class="mul">
+        <button type="submit" (click)="multiply(aInput.value, bInput.value)">*</button>
+      </div>
+      <div class="div">
+        <button type="submit" (click)="divide(aInput.value, bInput.value)">/</button>
+      </div>
     </div>
   </form>
 </div>
