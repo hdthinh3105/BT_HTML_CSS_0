@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## cách chạy cho 1 bài tập 
+
+nếu bạn muốn chạy 1 bài tập bt-class-1 thì bạn có thể dùng cách sau 
++ step 1 : bạn kiếm file app.component.html trong project
++ step 2 : bạn mở comment cho component <app-bt-class-1></app-bt-class-1>
++ step 3 : đóng tất cả các comment ngoài <app-bt-class-1></app-bt-class-1>
+
+ví dụ hình ảnh 
+![image](https://github.com/Kaicity/BT_HTML_CSS_0/assets/93094572/7b37f5a2-0047-4b49-90e3-9f32462654be)
+
+
+
+## Docker 
+
+
