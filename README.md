@@ -34,7 +34,7 @@ nếu bạn muốn chạy 1 bài tập bt-class-1 thì bạn có thể dùng cá
 + step 3 : đóng tất cả các comment ngoài <app-bt-class-1></app-bt-class-1>
 
 ví dụ hình ảnh 
-![image](https://github.com/Kaicity/BT_HTML_CSS_0/assets/93094572/7b37f5a2-0047-4b49-90e3-9f32462654be)
+![image](https://github-production-user-asset-6210df.s3.amazonaws.com/93094572/323037182-7b37f5a2-0047-4b49-90e3-9f32462654be.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240417%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240417T020756Z&X-Amz-Expires=300&X-Amz-Signature=d4820465669070a427b97ea83bedea762ebb2fe28b2a9adf23e8e41eab424700&X-Amz-SignedHeaders=host&actor_id=93094572&key_id=0&repo_id=783206470)
 
 
 
