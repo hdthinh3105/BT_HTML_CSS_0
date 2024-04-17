@@ -13,6 +13,7 @@ import {BtClass3AComponent} from "./bt-class-3-a/bt-class-3-a.component";
 import {BtClass3BComponent} from "./bt-class-3-b/bt-class-3-b.component";
 import {BtClass3CComponent} from "./bt-class-3-c/bt-class-3-c.component";
 import { BtClass4Component } from './bt-class-4/bt-class-4.component';
+import { DatabindindComponent } from './databindind/databindind.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BtClass4Component } from './bt-class-4/bt-class-4.component';
     BtClass3AComponent,
     BtClass3BComponent,
     BtClass3CComponent,
-    BtClass4Component
+    BtClass4Component,
+    DatabindindComponent
   ],
   imports: [
     BrowserModule,
